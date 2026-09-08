@@ -1,0 +1,14 @@
+# PyTorch stages (Python 3.10): preprocess, train_rnflt, predict_rnflt, train_classifier, evaluate, analyze_rnflt_maps
+torch==2.5.1
+torchvision==0.20.1
+segmentation-models-pytorch==0.5.0
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.1
+scikit-image==0.25.0
+scipy==1.15.3
+pillow==11.3.0
+opencv-python-headless==4.10.0.84
+matplotlib==3.10.0
+tqdm==4.67.1
+pyarrow==19.0.0

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+.ipynb_checkpoints/
+
+# Data, runs, results, weights (never committed)
+data/
+runs/
+results/
+weights/
+*.csv
+*.parquet
+*.npy
+*.npz
+*.pth
+*.pt
+*.h5
+*.png
+*.pdf
+
+# System
+.DS_Store

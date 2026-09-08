@@ -1,0 +1,11 @@
+# Artifact-correction stage only (Python 3.8, TensorFlow 2.4): scripts/correct_rnflt.py
+tensorflow==2.4.0
+tensorflow-probability==0.12.2  # imported by third_party/RNFLT2Vec
+numpy==1.19.5
+pandas==1.4.4
+opencv-python==4.12.0.88
+h5py==2.10.0
+scipy==1.10.1
+pillow==10.4.0
+tqdm==4.67.1
+matplotlib==3.6.3  # imported by third_party/RNFLT2Vec/utils/map_handler.py

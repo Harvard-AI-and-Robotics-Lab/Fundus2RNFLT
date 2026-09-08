@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fundus2rnflt"
+version = "1.0.0"
+description = "Deriving OCT-equivalent retinal nerve fiber layer thickness maps from fundus photographs with deep learning"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["fundus2rnflt"]
